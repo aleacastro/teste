@@ -49,6 +49,10 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="vehicle"
+                            onclick="">
+                                Veículos
+                            </a>                            
                             <a class="dropdown-item" href="{{ route('admin.logout') }}"
                                onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

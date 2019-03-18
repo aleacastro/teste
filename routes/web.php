@@ -31,6 +31,7 @@ Route::group(['prefix'=>'admin', 'as'=>'admin.'],function(){
     $this->post('password/reset','Auth\ResetPasswordController@reset');
 
     Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/vehicle', 'VehicleController@index')->name('vehicle');
 
 
 });
